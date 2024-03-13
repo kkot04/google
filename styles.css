@@ -1,0 +1,149 @@
+.header-list {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.header-item {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.header-item-img {
+    height: 24px;
+    width: 24px;
+}
+.header-item-btn {
+    padding: 7px 20px;
+    background-color: rgb(54, 54, 224);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.logo-section {
+}
+.logo-img-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.logo-img {
+    width: 272px;
+    height: 92px;
+}
+.search-secton {
+    padding: 20px;
+}
+.search-input-wrapper {
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    
+}
+.search-btn {
+    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: solid 1px gray;
+    width: 584px;
+    height: 37px;
+    border-radius: 25px;
+
+}
+.search-svg {
+    padding: 5px 8px 0 14px;
+}
+.search-input {
+    position: relative;
+    border: none;
+    width: 450px;
+    height: 28px;
+}
+.search-input:hover{
+    border: none;
+
+}
+.search-input:focus{
+    border: none;
+
+}
+.search-img{
+display: block;
+}
+.lucky-btn-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.lucky-btn-item {
+}
+.lucky-btn{
+    background-color: rgb(234, 234, 234);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(87, 87, 87);
+}
+.leng-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.leng-h {
+    color: rgb(87, 87, 87);
+
+}
+.leng-sp {
+    color:  rgb(51, 51, 235);
+}
+.footer{
+    background-color: #f2f2f2;
+    margin-top: 210px;
+    
+}
+.footer-title {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #202124;
+    display: flex;
+}
+.footer-list-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list-text{
+    display: block;
+}
+.footer-list-left {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: #202124;
+    margin: 0;
+    
+}
+.footer-item-left {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.footer-list-right {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    gap: 7px;
+    color: #202124;
+    margin: 0;
+    
+}
+.footer-item-right {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
